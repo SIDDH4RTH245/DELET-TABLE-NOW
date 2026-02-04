@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.delet {
+  padding: 5px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.5s;
+  border: 1px solid black;
+}
+.delet:hover {
+  background-color: white;
+  color: red;
+  /* border: none; */
+}
+table {
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+caption {
+  background-color: hsl(1deg, 55%, 58%);
+  padding: 10px;
+  border: 1px solid black;
+}
+tr {
+  background-color: hsl(32deg, 97%, 88%);
+  border: 1px solid black;
+}
+td {
+  padding: 20px;
+  border: 1px solid black;
+}
